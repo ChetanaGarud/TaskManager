@@ -85,5 +85,7 @@ DELETE,/tasks/{id},Delete task
 
 
 
-
+For running file you need to run uvicorn in one terminal and shiny in other terminal at a time and the you need to bash below line in terminal to run them without error 
+for shiny bash:shiny run dashboard.py --reload --port 8001 --launch-browser  (dashboard.py file contains the main UI for interaction)
+for uvicorn bash:python -m uvicorn app.main:app --reload --port 8000
 
