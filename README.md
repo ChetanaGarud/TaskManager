@@ -44,7 +44,7 @@ pip install -r requirements.txt
 Bash
 cd app
 uvicorn main:app --reload
-API will start at: http://127.0.0.1:8000
+API will start at: http://127.0.0.1:8001
 Interactive Docs: http://127.0.0.1:8000/docs
 
 5. Run Tests
