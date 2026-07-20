@@ -28,7 +28,7 @@ A clean and functional Task Management REST API** built with FastAPI + SQLAlchem
 # Steps
 1. Clone the repository
    Bash
-   git clone <your-repo-url>
+   git clone https://github.com/ChetanaGarud/TaskManager.git
    cd TASKMANAGER
 
 2. Create Virtual Environment
